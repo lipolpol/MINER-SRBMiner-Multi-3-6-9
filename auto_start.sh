@@ -10,8 +10,9 @@ echo "Installing GPU libraries..."
 apt-get update && apt-get install -y \
     libnuma1 \
     libpci3 \
-    libgl1-mesa-glx \
-    libglu1-mesa \
+    libgl1 \
+    libglx-mesa0 \
+    libglapi-mesa \
     wget \
     curl \
     && rm -rf /var/lib/apt/lists/*
