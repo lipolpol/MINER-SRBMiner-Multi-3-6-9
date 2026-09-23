@@ -1,0 +1,13 @@
+.git
+.gitignore
+README.md
+DOCKER_INSTRUCTIONS.md
+LOCAL_TEST.md
+docker_run_command.sh
+start_RTX_5080.sh
+guided-setup.sh
+help.sh
+list-algorithms.sh
+list-gpu-devices.sh
+Autotune/
+Cache/
